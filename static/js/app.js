@@ -31,25 +31,3 @@ submit.on("click", function () {
 
     inputElement.on("change", clickSelect)
 });
-
-
-
-
-// Beginning of the BONUS
-// Will come back to at later date
-// Creates way to filter for any option
-
-// var filterUFOSightins = function (sightings, targetColumn, filterValue) {
-
-//     sightings.forEach(function (sightingObject) {
-//         if (sightingObject[targetColumn] === filterValue) {
-//             filteredList.push(sightingObject);
-//         }
-//     });
-
-//     return filteredList;
-//     console.log(filteredList);
-
-//     // return sightings.filter(sightingObject => sightingObject[targetColumn] === filterValue)
-// }
-// filterUFOSightins(data, 'city', 'benton');
